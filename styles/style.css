@@ -167,7 +167,7 @@
   margin: 100px 0 0;
   position: relative;
   padding-top: 100px;
-  z-index: -2;
+  z-index: 1;
   box-sizing: border-box;
 }
 
@@ -187,13 +187,13 @@
   line-height: 51px;
   margin: auto;
   text-align: center;
+  z-index: 1;
 }
 
 .feynman__link {
   font-size: 36px;
   line-height: 51px;
   color: #2f80ed;
-  z-index: 1;
   position: absolute;
   top: 50%;
   right: 48px;
